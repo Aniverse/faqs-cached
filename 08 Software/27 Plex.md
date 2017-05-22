@@ -19,11 +19,11 @@ If you have not already created an account with <a href="https://plex.tv/">plex.
 <a href="https://plex.tv/users/sign_in">https:&#x2F;&#x2F;plex.tv&#x2F;users&#x2F;sign_in</a><br>
 <br>
 <br>
-<h2>New automated install script:</h2><br>
+<h2>Automated Installation script:</h2><br>
 We are current testing a new automated installation script for Plex. It no longer requires you port forward over SSH to get Plex working. You will still need to SSH into your slot in order to run the script, but it&#x27;s just a copy and paste after that.&nbsp; <br>
 To use the script just use this command:<pre><code>wget -qO ~&#x2F;install.plex.sh <a href="https://git.io/vKbgP">https:&#x2F;&#x2F;git.io&#x2F;vKbgP</a> &amp;&amp; bash ~&#x2F;install.plex.sh</code></pre><br>
 <strong>Important note:</strong> Once you have run this script, log into the Plex instance at the URL given. Be sure to go to Setting &gt; Remote Access &gt; Advanced and recheck the manual port mapping button.<br>
-<h2>Plex Installation and Set Up Outlined</h2><br>
+<h2>Manual Plex Installation and Set Up Outlined</h2><br>
 To install Plex this is the procedure you will need follow. All these steps are described in this guide.<br>
 <br>
 <strong>1:</strong> Create a directory named <code>plex</code> inside your <code>private</code> directory that is located in your slot&#x27;s root directory.<br>
@@ -35,7 +35,7 @@ To install Plex this is the procedure you will need follow. All these steps are 
 <br>
 Once done Plex should be fully functional. To achieve this please continue reading the guide.<br>
 <br>
-<h2>Plex Installation</h2><br>
+<h2>Manual Plex Installation</h2><br>
  <strong>Important note:</strong> After the <code>~&#x2F;private&#x2F;plex</code> directory is created Plex will then be installed and set up automatically within the next 5 minutes.<br>
 <br>
 Run these SSH commands using an SSH client:<br>
